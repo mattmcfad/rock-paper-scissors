@@ -1,0 +1,51 @@
+// bower:scss
+// endbower
+
+
+$red: #e74c3c; //Alizarin
+$red-dark: #c0392b; //Pomegranate;
+
+$red-light: lighten($red, 0.8);
+
+
+*, *:before, *:after {
+    -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+   }
+
+.clearfix:after {
+     content: " ";
+     visibility: hidden;
+     display: block;
+     height: 0;
+     clear: both;
+}
+
+body {
+    background: $red-light;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #333;
+}
+
+
+.hero-unit {
+    margin: 50px auto 0 auto;
+    width: 340px;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 30px;
+    background-color: #eee;
+    border-radius: 6px;
+    padding: 60px;
+    h1 {
+        font-size: 60px;
+        line-height: 1;
+        letter-spacing: -1px;
+    }
+}
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
